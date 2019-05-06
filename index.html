@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>this is my first angular programe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="js" href="./index.js">
+        
+    </head>
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div ng-app="myApp" ng-controller="myCtrl">
+            名:  <input type="text" ng-model="firstName"><br>
+            姓:  <input type="text" ng-model="lastName"><br>
+            <br>
+            姓名: {{firstName + " " + lastName}}
+
+        </div>
+        <div>this is a test</div>
+        </div>
+        <!-- <div class="divcss">
+            this is  a useful tool in program
+        </div> -->
+        <script src="" async defer></script>
+    </body>
+</html>

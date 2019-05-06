@@ -12,6 +12,10 @@ input{
     background-color: azure;
 }
 div{
-    background:blue;
+    background:white;
+}
+.divcss{
+    background: rgb(248, 239, 239);
+    font:black
 }
 >>>>>>> 0f0760ed900011f81092f5aadb14528fac710989
